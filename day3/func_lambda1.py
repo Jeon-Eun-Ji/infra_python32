@@ -14,3 +14,5 @@ people = [
 # 이름에 "e"가 있는 애들 리스트 출력 
 people_logs = list(filter(lambda x: "e" in x["name"].lower(), people))
 print(f"이름에 e가 있는 애들: {people_logs}")
+
+#comprehension version
