@@ -24,3 +24,8 @@ print(server_info.get("ip_addr"))
 print(server_info.get("os"))
 print(server_info.get("user_list"))
 print(server_info.get("password_list", "비밀~"))
+
+# 딕셔너리 핵심 함수 (keys, values, items)
+print(list(server_info.keys())[0])
+print(list(server_info.values())[0])
+print(list(server_info.items())[0])
