@@ -1,0 +1,37 @@
+[
+    {
+        "name": "안다솜",
+        "city": "경기 ",
+        "mbti": "ISTP",
+        "sibling": 1,
+        "pbl": false
+    },
+    {
+        "name": "양태규",
+        "city": "광주",
+        "mbti": "ENTP",
+        "sibling": null,
+        "pbl": null
+    },
+    {
+        "name": "엄민욱",
+        "city": "파주",
+        "mbti": "ENFJ",
+        "sibling": 2,
+        "pbl": true
+    },
+    {
+        "name": "오승백",
+        "city": "천안",
+        "mbti": "ESFJ",
+        "sibling": 2,
+        "pbl": true
+    },
+    {
+        "name": "우유엘",
+        "city": "수원",
+        "mbti": "INTP",
+        "sibling": 2,
+        "pbl": false
+    }
+]
