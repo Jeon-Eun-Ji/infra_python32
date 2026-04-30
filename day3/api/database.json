@@ -1,0 +1,79 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "352f8a29-042b-804e-9ddb-fc2741005faa",
+            "created_time": "2026-04-30T05: 34: 00.000Z",
+            "last_edited_time": "2026-04-30T05: 35: 00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "34ad872b-594c-81fa-abbd-00025bc96931"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "34ad872b-594c-81fa-abbd-00025bc96931"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "352f8a29-042b-8041-a2de-de049fb0ca23"
+            },
+            "in_trash": false,
+            "is_archived": false,
+            "is_locked": false,
+            "properties": {
+                "총 금액": {
+                    "id": "%3B%5BOK",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 15000000
+                    }
+                },
+                "금액": {
+                    "id": "%3Bkis",
+                    "type": "number",
+                    "number": 1500000
+                },
+                "재고 수량": {
+                    "id": "uU%3EY",
+                    "type": "number",
+                    "number": 10
+                },
+                "상품명": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "노트북",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "노트북",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://app.notion.com/p/352f8a29042b804e9ddbfc2741005faa",
+            "public_url": null,
+            "archived": false
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page_or_database",
+    "page_or_database": {},
+    "request_id": "0f6b082f-286d-421e-9e5a-bc2460819b46"
+}
