@@ -48,5 +48,8 @@ try:
 
         print(f"상품명: {title} | 수량: {qty} | 금액: {price:,} | 총 금액: {total_price:,}")
 
+except requests.exceptions.HTTPError as e:
+    # 401 TOKEN 값 문제 / 400, 404 경로 문제 or DB 접근 권한 문제
+    print(f"노션 API 에러: {e}")
 except Exception as e:
-    print(e)
+    print(f"알 수 없는 에러: {e}")
